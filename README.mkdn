@@ -12,8 +12,10 @@ repo init -u https://github.com/Project-Aether-AOSP/android.git -b lineage-23.2 
 ```
 Then to sync up:
 ```
-repo sync
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 ```
+Adjust the -j8 tag according to your CPU and Network Bandwidth
+
 Building
 =========
 Prepare the terminal for building.
