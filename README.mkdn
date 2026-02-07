@@ -36,4 +36,4 @@ brunch $device
 ```
 
 This ROM is based on LineageOS, you shall use only LineageOS Trees.
-'''''''''''''''''''''''''''''''''''''
+''''''
