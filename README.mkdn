@@ -15,6 +15,10 @@ Then to sync up:
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 ```
 Adjust the -j8 tag according to your CPU and Network Bandwidth
+You can add .gitcookies file to bypass repo sync errors when using a higher "-jn" tag.
+```
+https://android.googlesource.com/new-password
+```
 
 Building
 =========
