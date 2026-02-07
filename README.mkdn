@@ -1,5 +1,5 @@
-Projetc Aether AOSP
-===========
+Project Aether AOSP
+==================
 
 Getting started
 ---------------
